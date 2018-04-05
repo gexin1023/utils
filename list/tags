@@ -1,0 +1,61 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+INIT_LIST_HEAD	list.h	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+LIST_HEAD	list.h	59;"	d
+LIST_HEAD_INIT	list.h	57;"	d
+LIST_POISON1	list.h	9;"	d
+LIST_POISON2	list.h	10;"	d
+__LIST_H__	list.h	2;"	d
+__list_add	list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_add_rcu	list.h	/^static inline void __list_add_rcu(struct list_head * new,$/;"	f
+__list_del	list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__list_for_each	list.h	490;"	d
+__list_for_each_rcu	list.h	645;"	d
+__list_splice	list.h	/^static inline void __list_splice(struct list_head *list,$/;"	f
+container_of	list.h	39;"	d
+list_add	list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_rcu	list.h	/^static inline void list_add_rcu(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail_rcu	list.h	/^static inline void list_add_tail_rcu(struct list_head *new,$/;"	f
+list_del	list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_del_init	list.h	/^static inline void list_del_init(struct list_head *entry)$/;"	f
+list_del_rcu	list.h	/^static inline void list_del_rcu(struct list_head *entry)$/;"	f
+list_empty	list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_empty_careful	list.h	/^static inline int list_empty_careful(const struct list_head *head)$/;"	f
+list_entry	list.h	457;"	d
+list_first_entry	list.h	468;"	d
+list_for_each	list.h	476;"	d
+list_for_each_continue_rcu	list.h	695;"	d
+list_for_each_entry	list.h	518;"	d
+list_for_each_entry_continue	list.h	554;"	d
+list_for_each_entry_from	list.h	567;"	d
+list_for_each_entry_rcu	list.h	677;"	d
+list_for_each_entry_reverse	list.h	529;"	d
+list_for_each_entry_safe	list.h	578;"	d
+list_for_each_entry_safe_continue	list.h	594;"	d
+list_for_each_entry_safe_from	list.h	610;"	d
+list_for_each_entry_safe_reverse	list.h	625;"	d
+list_for_each_prev	list.h	498;"	d
+list_for_each_rcu	list.h	640;"	d
+list_for_each_safe	list.h	508;"	d
+list_for_each_safe_rcu	list.h	662;"	d
+list_head	list.h	/^struct list_head {$/;"	s
+list_is_last	list.h	/^static inline int list_is_last(const struct list_head *list,$/;"	f
+list_move	list.h	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	list.h	/^static inline void list_move_tail(struct list_head *list,$/;"	f
+list_prepare_entry	list.h	542;"	d
+list_replace	list.h	/^static inline void list_replace(struct list_head *old,$/;"	f
+list_replace_init	list.h	/^static inline void list_replace_init(struct list_head *old,$/;"	f
+list_replace_rcu	list.h	/^static inline void list_replace_rcu(struct list_head *old,$/;"	f
+list_splice	list.h	/^static inline void list_splice(struct list_head *list, struct list_head *head)$/;"	f
+list_splice_init	list.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+list_splice_init_rcu	list.h	/^static inline void list_splice_init_rcu(struct list_head *list,$/;"	f
+next	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+offsetof	list.h	12;"	d
+prev	list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+rcu_dereference	list.h	26;"	d
+smp_read_barrier_depends	list.h	14;"	d
